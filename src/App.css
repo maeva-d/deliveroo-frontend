@@ -218,17 +218,16 @@ main aside div > div > span {
 }
 
 /* --- meals' list --- */
-
-main section {
-  display: flex;
-  gap: 24px;
-  flex: 1;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
+main article {
+  width: 80%;
 }
 
-article {
-  width: 70%;
+main section {
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  /* flex: 1; */
 }
 
 menu {
@@ -236,10 +235,9 @@ menu {
   border-radius: 5px;
   padding: 16px;
   display: flex;
-  flex-shrink: 0;
   justify-content: space-between;
   height: 130px;
-  width: 45.091%;
+  width: 42%;
 }
 
 menu img {
